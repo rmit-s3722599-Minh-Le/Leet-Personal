@@ -13,6 +13,7 @@ public class Main {
 					answer[0] = nums[i];
 					answer[1] = nums[j];
 					//exits
+					//
 					i = nums.length;
 					j = nums.length;
 				}
