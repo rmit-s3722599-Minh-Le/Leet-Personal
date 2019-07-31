@@ -1,0 +1,34 @@
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl nextCard
+FINE: Card Dealt to The Shark .. Suit: CLUBS, Value: ACE, Score: 1
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl nextCard
+FINE: Card Dealt to The Shark .. Suit: DIAMONDS, Value: SEVEN, Score: 7
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl nextCard
+FINE: Card Dealt to The Shark .. Suit: HEARTS, Value: NINE, Score: 9
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl bustCard
+FINE: Card Dealt to The Shark .. Suit: SPADES, Value: SEVEN, Score: 7 ... YOU BUSTED!
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl result
+INFO: The Shark, final result=17
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl nextCard
+FINE: Card Dealt to The Loser .. Suit: CLUBS, Value: TWO, Score: 2
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl nextCard
+FINE: Card Dealt to The Loser .. Suit: SPADES, Value: SIX, Score: 6
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl nextCard
+FINE: Card Dealt to The Loser .. Suit: SPADES, Value: TWO, Score: 2
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl nextCard
+FINE: Card Dealt to The Loser .. Suit: CLUBS, Value: JACK, Score: 10
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl bustCard
+FINE: Card Dealt to The Loser .. Suit: SPADES, Value: QUEEN, Score: 10 ... YOU BUSTED!
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl result
+INFO: The Loser, final result=20
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl nextHouseCard
+FINE: Card Dealt to House .. Suit: CLUBS, Value: KING, Score: 10
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl nextHouseCard
+FINE: Card Dealt to House .. Suit: HEARTS, Value: JACK, Score: 10
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl houseBustCard
+FINE: Card Dealt to House .. Suit: CLUBS, Value: SEVEN, Score: 7 ... HOUSE BUSTED!
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl houseResult
+INFO: House, final result=20
+Jul 12, 2018 4:06:11 PM view.GameEngineCallbackSolutionImpl houseResult
+INFO: Final Player Results
+Player: id=1, name=The Shark, points=900
+Player: id=2, name=The Loser, points=500
