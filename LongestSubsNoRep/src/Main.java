@@ -49,9 +49,9 @@ public class Main {
             if(longestStr.length() < str.length()) {
             	longestStr = str;
             } 
-//            if(longestStr.length() < s.length()/2) {
-//            	
-//            }
+            if(longestStr.length() >= s.length()/2) {
+            	break;
+            }
         }
         System.out.println(longestStr);
         return longestStr.length();
