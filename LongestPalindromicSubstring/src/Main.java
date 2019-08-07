@@ -16,6 +16,7 @@ public String longestPalindrome(String s) {
             
             int pivot = i;
             
+            //gets the index next to the pivot i with the same char
             int nextIndex = s.indexOf(s.charAt(i), pivot + 1);
             while(nextIndex != -1) {
                 /*
@@ -28,18 +29,21 @@ public String longestPalindrome(String s) {
                 boolean pand = true;
                 /*
                  * the left pivot (j) checks if the right pivot (opposite) is the same, 
-                 * otherwise the substring is not a palindrome
+                 * otherwise the substring is not a Palindrome
                  */
                 for(int j = 1; j < subS.length()/2; j++) {
                     if(subS.charAt(j) != subS.charAt(subS.length() - 1 - j) ) {
                         pand = false;
                     }
                 }
+                //checks if the the length of the Palindrome substring is less than the current longest Palindrome
+                //if true, then the new substring replaces the old substring
                 if (pand == true) {
                     if(pal.length() < subS.length()) {
                         pal = subS;
                     }
                 }
+                //gets the next index with the same char of the pivot i
                 nextIndex = s.indexOf(s.charAt(i), nextIndex + 1);               
             }
         }
