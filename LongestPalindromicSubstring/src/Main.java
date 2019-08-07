@@ -54,9 +54,11 @@ public String longestPalindrome(String s) {
     }
 	
 	public void run() {
-		// TODO Auto-generated method stub
+		//user input
+		System.out.println("Type in a string to find the Longest Palindrome:");
 		Scanner scan = new Scanner(System.in);
 		String string = scan.nextLine();
+		
 		System.out.println(this.longestPalindrome(string));
 		scan.close();
 	}
