@@ -4,7 +4,7 @@ public class Main {
 
 public String longestPalindrome(String s) {
         
-		//this is for the initial phase.
+		//this is for the initial phase. 
         String pal = "";
         //if the string is more than 0 length, than the first char is the minimum Palindrome 
         if(s.length() > 0) {
